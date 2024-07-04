@@ -1,0 +1,26 @@
+{
+    "id": "aqua",
+    "name": "aqua",
+    "version": "1.0.0",
+    "description": "Declarative CLI Version Manager",
+    "documentationURL": "https://github.com/C-FO/devcontainer-features/tree/main/src/aqua/README.md",
+    "options": {
+        "version": {
+            "type": "string",
+            "description": "Select or enter an aqua version",
+            "proposals": ["latest"],
+            "default": "latest"
+        },
+        "installerVersion": {
+            "type": "string",
+            "description": "Select or enter an aqua installer version",
+            "proposals": ["latest"],
+            "default": "latest"
+        },
+        "aquaRootDir": {
+            "type": "string",
+            "description": "The directory path where aqua install tools",
+            "default": "/usr/local/share/aquaproj-aqua"
+        }
+    }
+}
